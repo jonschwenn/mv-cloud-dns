@@ -2,6 +2,8 @@
 
 This tool migrate your DNS zones from Vultr to DigitalOcean. The record settings will be copied over during the migration.
 
+![mv-cloud-dns demo](https://github.com/jonschwenn/mv-cloud-dns/raw/master/demo.gif)
+
 #### Supported Records:
 * A
 * AAAA
