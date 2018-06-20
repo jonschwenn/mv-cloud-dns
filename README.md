@@ -17,6 +17,7 @@ This tool migrates your DNS zones from Vultr to DigitalOcean. The record setting
 * *CAA Records:* Not supported due to added complexity with Vultr's implementation
 * *SSHFP Records:* Not supported on DigitalOcean
 * *DNSSEC:* Not supported on DigitalOcean 
+
 _The tool will display a reminder to disable DNSSEC at your registrar if enabled on the Vultr DNS zone_
 
 ### Prerequisites
