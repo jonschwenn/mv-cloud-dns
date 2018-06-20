@@ -12,21 +12,21 @@ This tool migrates your DNS zones from Vultr to DigitalOcean. The record setting
 * TXT
 
 #### Unsupported Records:
-* *NS Records:* Automatically created on migration to point to the DigitalOcean name servers
-* *SRV Records:* Not supported due to added complexity with Vultr's implementation
-* *CAA Records:* Not supported due to added complexity with Vultr's implementation
-* *SSHFP Records:* Not supported on DigitalOcean
-* *DNSSEC:* Not supported on DigitalOcean 
+* **NS Records:** Automatically created on migration to point to the DigitalOcean name servers
+* **SRV Records:** Not supported due to added complexity with Vultr's implementation
+* **CAA Records:** Not supported due to added complexity with Vultr's implementation
+* **SSHFP Records:** Not supported on DigitalOcean
+* **DNSSEC:** Not supported on DigitalOcean
 
 _The tool will display a reminder to disable DNSSEC at your registrar if enabled on the Vultr DNS zone_
 
 ### Prerequisites
 ---
-1. A modern Linux OS
-2. git (can be installed with a simple `ap-get install git` or `yum install git`)
-3. jq (can be installed with a simple `ap-get install jq` or `yum install jq`)
-4. API tokens for your Vultr and DigitalOcean accounts
-5. Make sure you've added the IP address of the system running the script to your Vultr API access controls
+* A modern Linux OS
+* git (can be installed with a simple `ap-get install git` or `yum install git`)
+* jq (can be installed with a simple `ap-get install jq` or `yum install jq`)
+* API tokens for your Vultr and DigitalOcean accounts
+* Make sure you've added the IP address of the system running the script to your Vultr API access controls
 
 ### Setup and Run
 ---
@@ -48,6 +48,8 @@ ns3.digitalocean.com
 ### Future Development
 ---
 I have intentions of adding more cloud provider options.
+
+
 
 ### License, Warranty, and Contributing
 ---
