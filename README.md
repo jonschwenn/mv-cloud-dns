@@ -1,6 +1,6 @@
 # DNS Zone Migrator
 
-This tool migrate your DNS zones from Vultr to DigitalOcean. The record settings will be copied over during the migration.
+This tool migrates your DNS zones from Vultr to DigitalOcean. The record settings will be copied over during the migration.
 
 ![mv-cloud-dns demo](https://github.com/jonschwenn/mv-cloud-dns/raw/master/demo.gif)
 
@@ -16,7 +16,8 @@ This tool migrate your DNS zones from Vultr to DigitalOcean. The record settings
 * *SRV Records:* Not supported due to added complexity with Vultr's implementation
 * *CAA Records:* Not supported due to added complexity with Vultr's implementation
 * *SSHFP Records:* Not supported on DigitalOcean
-* *DNSSEC:* Not supported on DigitalOcean _The tool will display a reminder to disable DNSSEC at your registrar if enabled on the Vultr DNS zone_
+* *DNSSEC:* Not supported on DigitalOcean 
+_The tool will display a reminder to disable DNSSEC at your registrar if enabled on the Vultr DNS zone_
 
 ### Prerequisites
 ---
